@@ -19,3 +19,11 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.aaa{
+    display: inline-flex;
+}
+.container{
+max-width: 1440px;
+margin: 0 auto;
+padding: 0 123px;
+}
