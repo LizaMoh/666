@@ -24,7 +24,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 30px;
     padding-bottom: 10px;
     padding-top: 12px;
     
@@ -39,7 +38,6 @@ padding: 0 10px;
 }
 .menu{
     align-items: center;
-    margin-right: 59px;
     justify-content: space-between;
     padding-top: 23px;
     padding-bottom: 23px;
@@ -50,8 +48,16 @@ ul{
 .girl{
     background-color: #ecffeb;
     height: 598px;
-    width: 100%;
+    box-sizing: border-box;
+    
   
+}
+.girl2>p:first-child{
+    padding-top: 71px;
+}
+.gt{
+    padding-top: 20px;
+    max-width: 419px;
 }
 .girl2{
     background-image: url('../img/123321.png');
@@ -73,6 +79,7 @@ font-size: 65px;
 line-height: 100%;
 color: #55a630;
 font-family: "Montserrat";
+max-width: 496px;
 
 
 }
@@ -86,8 +93,27 @@ height: 212px;
 background: #fff;
 margin-top: -23px;
 margin-left: 120px;
-
-
+display: flex;
+justify-content: space-between;
+padding: 54px 64px;
+box-sizing: border-box;
+}
+.pop>p:first-child{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 100%;
+    text-align: center;
+    color: #55a630;
+}
+.pop>:last-child{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 122%;
+    text-align: center;
+    color: #424242;
+    max-width: 186px;
 }
 .jjj{
     background-image: url('../img/line.png');
@@ -102,6 +128,7 @@ font-size: 35px;
 line-height: 80%;
 text-align: center;
 color: #424242;
+margin-top: 177px;
 }
 
 .xleb1{
@@ -132,6 +159,36 @@ height: 66px;
 background: transparent;
 }
 .xleb{
-    margin: -138px;
+    margin-top: 57px;
     
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.tel{
+    display: flex;
+    align-items: center;
+    margin-right: 58px;
+}
+.tel>a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 104%;
+    color: #424242;
+    margin-left: 22px;
+}
+.kartina>a{
+    margin-right: 26px;
+}
+.kartina>a:last-child{
+    margin: 0;
+}
+.menu>li>a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    color: #424242;
 }
