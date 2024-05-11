@@ -450,9 +450,14 @@ ul{
     max-width: 276px;
 }
 .gerl-dental{
+    padding-top: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+.gerl-dental>img{
     width: 590px;
-height: 666px;
-padding-top: 175px;
+    height: 666px;
+    object-fit: cover;
 }
 .text-dental{
     font-family: "Montserrat", sans-serif;
@@ -460,6 +465,8 @@ padding-top: 175px;
     font-size: 25px;
     line-height: 116%;
     color: #424242;
+    max-width: 452px;
+    padding-bottom: 26px;
 }
 .vlr{
     display: flex;
@@ -469,10 +476,13 @@ padding-top: 175px;
     line-height: 107%;
     letter-spacing: -0.01em;
     color: #424242;
-    display:inline-block;
-    
-    
-   
+    flex-direction: column;
+}
+.vlr>h3{
+    max-width: 506px;
+}
+.vlr>h3:last-child{
+    padding-bottom: 75px;
 }
 .VALMARI{
     color: #55a630;
@@ -482,20 +492,62 @@ padding-top: 175px;
     font-weight: 500;
     font-size: 25px;
     line-height: 112%;
-    text-align: center;
     color: #858585;
-    display:inline-block;
+    padding-bottom: 30px;
 }
 .grenn-podrob>a{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 140%;
-    text-align: center;
     color: #55a630;
-    margin-right: 42px;
 
 }
 .dddd{
     display: flex;
+}
+.grenn-podrob{
+    align-self: self-end;
+    padding-top: 30px;
+}
+.grenn-podrob>a>img{
+    margin-left: 48px;
+}
+.ponnn{
+    display: flex;
+    flex-direction: column;
+
+}
+.training{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 80%;
+    text-align: center;
+    color: #424242;
+    padding-top: 175px;
+    
+}
+.courses-cosmology>img{
+    width: 570px;
+    height: 260px;
+}
+.courses-cosmology{
+   padding-top: 76px;
+}
+.courses-cosmology>h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 119%;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.hhh>li{
+    font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 18px;
+line-height: 117%;
+color: #fff;
 }
